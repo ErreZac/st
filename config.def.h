@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-//static char *font = "JetBrainsMono Nerd Font:size=22:style:Regular:antialias=true:autohint=true";
-static char *font = "Victor Mono Nerd Font:size=22:style:Regular:antialias=true:autohint=true";
+//static char *font = "JetBrainsMono Nerd Font:size=22:style:Medium:antialias=true:autohint=true";
+static char *font = "Victor Mono Nerd Font:size=22:style:Medium:antialias=true:autohint=true";
 static int borderpx = 10;
 
 /*
@@ -98,33 +98,62 @@ unsigned int tabspaces = 4;
 float alpha = 0.90;
 
 /* Terminal colors (16 first used in escape sequence) */
+/*  tokyo night  */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#3b4252", /* black   */
-	"#bf616a", /* red     */
-	"#a3be8c", /* green   */
-	"#ebcb8b", /* yellow  */
-	"#81a1c1", /* blue    */
-	"#b48ead", /* magenta */
-	"#88c0d0", /* cyan    */
-	"#e5e9f0", /* white   */
+	"#15161E", /* black   */
+	"#f7768e", /* red     */
+	"#9ece6a", /* green   */
+	"#e0af68", /* yellow  */
+	"#7aa2f7", /* blue    */
+	"#bb9af7", /* magenta */
+	"#7dcfff", /* cyan    */
+	"#a9b1d6", /* white   */
 
 	/* 8 bright colors */
-	"#4c566a", /* black   */
-	"#bf616a", /* red     */
-	"#a3be8c", /* green   */
-	"#ebcb8b", /* yellow  */
-	"#81a1c1", /* blue    */
-	"#b48ead", /* magenta */
-	"#8fbcbb", /* cyan    */
-	"#eceff4", /* white   */
+	"#414868", /* black   */
+	"#f7768e", /* red     */
+	"#9ece6a", /* green   */
+	"#e0af68", /* yellow  */
+	"#7aa2f7", /* blue    */
+	"#bb9af7", /* magenta */
+	"#7dcfff", /* cyan    */
+	"#c0caf5", /* white   */
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#2e3440", /* background */
-	"#d8dee9", /* foreground */
+	"#1a1b26", /* background */
+	"#c0caf5", /* foreground */
 };
+/*  nord */
+//static const char *colorname[] = {
+//	/* 8 normal colors */
+//	"#3b4252", /* black   */
+//	"#bf616a", /* red     */
+//	"#a3be8c", /* green   */
+//	"#ebcb8b", /* yellow  */
+//	"#81a1c1", /* blue    */
+//	"#b48ead", /* magenta */
+//	"#88c0d0", /* cyan    */
+//	"#e5e9f0", /* white   */
+//
+//	/* 8 bright colors */
+//	"#4c566a", /* black   */
+//	"#bf616a", /* red     */
+//	"#a3be8c", /* green   */
+//	"#ebcb8b", /* yellow  */
+//	"#81a1c1", /* blue    */
+//	"#b48ead", /* magenta */
+//	"#8fbcbb", /* cyan    */
+//	"#eceff4", /* white   */
+//
+//	[255] = 0,
+//
+//	/* more colors can be added after 255 to use with DefaultXX */
+//	"#2e3440", /* background */
+//	"#d8dee9", /* foreground */
+//};
 
 
 /*
