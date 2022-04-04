@@ -97,34 +97,72 @@ unsigned int tabspaces = 4;
 /* bg opacity */
 float alpha = 0.90;
 
-/* Terminal colors (16 first used in escape sequence) */
-/*  gruvbox  */
+/*  catppuccin */
 static const char *colorname[] = {
 	/* 8 normal colors */
-    "#1d2021", /* hard contrast: #282828/ soft contrast: #32302f */
-    "#cc241d", /* red     */
-    "#98971a", /* green   */
-    "#d79921", /* yellow  */
-    "#458588", /* blue    */
-    "#b16286", /* magenta */
-    "#689d6a", /* cyan    */
-    "#a89984", /* white   */
+	"#6E6C7E",
+	"#F28FAD",
+	"#ABE9B3",
+	"#FAE3B0",
+	"#96CDFB",
+	"#F5C2E7",
+	"#89DCEB",
+	"#D9E0EE",
 
 	/* 8 bright colors */
-    "#928374", /* black   */
-    "#fb4934", /* red     */
-    "#b8bb26", /* green   */
-    "#fabd2f", /* yellow  */
-    "#83a598", /* blue    */
-    "#d3869b", /* magenta */
-    "#8ec07c", /* cyan    */
-    "#ebdbb2", /* white   */
+	"#988BA2",
+	"#F28FAD",
+	"#ABE9B3",
+	"#FAE3B0",
+	"#96CDFB",
+	"#F5C2E7",
+	"#89DCEB",
+	"#D9E0EE",
 
-	[255] = 0,
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#1d2021", /* background */
-	"#fbf1c7", /* foreground */
+
+
+[256] = "#D9E0EE", /* default foreground colour */
+[257] = "#1E1E2E", /* default background colour */
+[258] = "#C3BAC6", /*575268*/
+
 };
+
+
+/*
+ * foreground, background, cursor, reverse cursor
+ */
+unsigned int defaultfg = 256;
+unsigned int defaultbg = 257;
+unsigned int defaultcs = 258;
+static unsigned int defaultrcs = 258;
+/* Terminal colors (16 first used in escape sequence) */
+/*  gruvbox  */
+//static const char *colorname[] = {
+//	/* 8 normal colors */
+//    "#1d2021", /* hard contrast: #282828/ soft contrast: #32302f */
+//    "#cc241d", /* red     */
+//    "#98971a", /* green   */
+//    "#d79921", /* yellow  */
+//    "#458588", /* blue    */
+//    "#b16286", /* magenta */
+//    "#689d6a", /* cyan    */
+//    "#a89984", /* white   */
+//
+//	/* 8 bright colors */
+//    "#928374", /* black   */
+//    "#fb4934", /* red     */
+//    "#b8bb26", /* green   */
+//    "#fabd2f", /* yellow  */
+//    "#83a598", /* blue    */
+//    "#d3869b", /* magenta */
+//    "#8ec07c", /* cyan    */
+//    "#ebdbb2", /* white   */
+//
+//	[255] = 0,
+//	/* more colors can be added after 255 to use with DefaultXX */
+//	"#1d2021", /* background */
+//	"#fbf1c7", /* foreground */
+//};
 
 /*  nord */
 //static const char *colorname[] = {
@@ -162,10 +200,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 256;
+//unsigned int defaultfg = 257;
+//unsigned int defaultbg = 256;
+//unsigned int defaultcs = 257;
+//static unsigned int defaultrcs = 256;
 
 /*
  * https://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h4-Functions-using-CSI-_-ordered-by-the-final-character-lparen-s-rparen:CSI-Ps-SP-q.1D81
