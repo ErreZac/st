@@ -109,7 +109,7 @@ unsigned int tabspaces = 4;
 /* bg opacity */
 float alpha = 0.90;
 
-/* Terminal colors (16 first used in escape sequence) */
+/* catppuccin Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"#1E1E2E",
@@ -120,7 +120,6 @@ static const char *colorname[] = {
 	"#DDB6F2", //
 	"#89DCEB", //
 	"#C3BAC6",
-
 	/* 8 bright colors */
 	"#575268",
 	"#F28FAD",
@@ -130,16 +129,10 @@ static const char *colorname[] = {
 	"#DDB6F2", // F5C2E7
 	"#89DCEB", //
 	"#D9E0EE",
-
-
-
 [256] = "#D9E0EE", /* default foreground colour */
 [257] = "#1E1E2E", /* default background colour */
 [258] = "#C3BAC6", /*575268*/
-
 };
-
-
 /*
  * foreground, background, cursor, reverse cursor
  */
@@ -147,6 +140,43 @@ unsigned int defaultfg = 256;
 unsigned int defaultbg = 257;
 unsigned int defaultcs = 258;
 static unsigned int defaultrcs = 258;
+
+///*  nord */
+//static const char *colorname[] = {
+//	/* 8 normal colors */
+//	"#3b4252", /* black   */
+//	"#bf616a", /* red     */
+//	"#a3be8c", /* green   */
+//	"#ebcb8b", /* yellow  */
+//	"#81a1c1", /* blue    */
+//	"#b48ead", /* magenta */
+//	"#88c0d0", /* cyan    */
+//	"#e5e9f0", /* white   */
+//	/* 8 bright colors */
+//	"#4c566a", /* black   */
+//	"#bf616a", /* red     */
+//	"#a3be8c", /* green   */
+//	"#ebcb8b", /* yellow  */
+//	"#81a1c1", /* blue    */
+//	"#b48ead", /* magenta */
+//	"#8fbcbb", /* cyan    */
+//	"#eceff4", /* white   */
+//	[255] = 0,
+//	/* more colors can be added after 255 to use with DefaultXX */
+//	//"#2e3440", /* background */
+//	//"#1a1d24", /* background 1.8 */
+//	"#1e222a", /* background 1.5 preso! */
+//	"#d8dee9", /* foreground */
+//};
+///*
+// * Default colors (colorname index)
+// * foreground, background, cursor, reverse cursor
+// */
+//unsigned int defaultfg = 257;
+//unsigned int defaultbg = 256;
+//unsigned int defaultcs = 257;
+//static unsigned int defaultrcs = 256;
+
 /*
  * https://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h4-Functions-using-CSI-_-ordered-by-the-final-character-lparen-s-rparen:CSI-Ps-SP-q.1D81
  * Default style of cursor
