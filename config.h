@@ -112,26 +112,26 @@ float alpha = 0.90;
 /* catppuccin Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#1E1E2E",
-	"#F28FAD",
-	"#ABE9B3",
-	"#FAE3B0",
-	"#96CDFB",
-	"#DDB6F2", //
-	"#89DCEB", //
-	"#C3BAC6",
+	"#282828",
+	"#cc241d",
+	"#98971a",
+	"#d79921",
+	"#458588",
+	"#b16286", //
+	"#689d6a", //
+	"#a89984",
 	/* 8 bright colors */
-	"#575268",
-	"#F28FAD",
-	"#ABE9B3",
-	"#FAE3B0",
-	"#96CDFB",
-	"#DDB6F2", // F5C2E7
-	"#89DCEB", //
-	"#D9E0EE",
-[256] = "#D9E0EE", /* default foreground colour */
-[257] = "#1E1E2E", /* default background colour */
-[258] = "#C3BAC6", /*575268*/
+	"#928374",
+	"#fb4934",
+	"#b8bb26",
+	"#fabd2f",
+	"#83a598",
+	"#d3869b", // F5C2E7
+	"#8ec07c", //
+	"#ebdbb2",
+[256] = "#fbf1c7", /* default foreground colour */
+[257] = "#1d2021", /* default background colour */
+[258] = "#928374", /*575268*/
 };
 /*
  * foreground, background, cursor, reverse cursor
