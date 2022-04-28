@@ -112,7 +112,7 @@ float alpha = 0.90;
 /* gruvbox Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#282828",
+	"#1d2021", //#282828
 	"#cc241d",
 	"#98971a",
 	"#d79921",
@@ -128,7 +128,7 @@ static const char *colorname[] = {
 	"#83a598",
 	"#d3869b", // F5C2E7
 	"#8ec07c", //
-	"#ebdbb2",
+	"#fbf1c7", // #ebdbb2
 
 [256] = "#fbf1c7", /* default foreground colour */
 [257] = "#1d2021", /* default background colour */
