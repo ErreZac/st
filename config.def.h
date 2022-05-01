@@ -109,38 +109,63 @@ unsigned int tabspaces = 4;
 /* bg opacity */
 float alpha = 0.90;
 
-/* gruvbox Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"#1d2021", //#282828
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286", //
-	"#689d6a", //
-	"#a89984",
-	/* 8 bright colors */
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b", // F5C2E7
-	"#8ec07c", //
-	"#fbf1c7", // #ebdbb2
+  "#1d2021", /* base00 */
+  "#fb4934", /* base08 */
+  "#b8bb26", /* base0B */
+  "#fabd2f", /* base0A */
+  "#83a598", /*  base0D */
+  "#d3869b", /* base0E */
+  "#8ec07c", /* base0C */
+  "#fbf1c7", /* d5c4a1 base05 */
 
-[256] = "#fbf1c7", /* default foreground colour */
-[257] = "#1d2021", /* default background colour */
-[258] = "#928374", /*575268*/
+  "#a89984", /*665c54 base03 */
+  "#fe8019", /* base09 */
+  "#3c3836", /* base01 */
+  "#504945", /* base02 */
+  "#bdae93", /* base04 */
+  "#ebdbb2", /* base06 */
+  "#d65d0e", /* base0F */
+  "#fbf1c7", /* base07 */
 };
-/*
- * foreground, background, cursor, reverse cursor
- */
-unsigned int defaultfg = 256;
-unsigned int defaultbg = 257;
-unsigned int defaultcs = 258;
-static unsigned int defaultrcs = 258;
+
+unsigned int defaultfg = 7;
+unsigned int defaultbg = 0;
+unsigned int defaultcs = 13;
+static unsigned int defaultrcs = 0;
+
+/* gruvbox Terminal colors (16 first used in escape sequence) */
+//static const char *colorname[] = {
+//	/* 8 normal colors */
+//	"#1d2021", //#282828
+//	"#cc241d",
+//	"#98971a",
+//	"#d79921",
+//	"#458588",
+//	"#b16286", //
+//	"#689d6a", //
+//	"#a89984",
+//	/* 8 bright colors */
+//	"#928374",
+//	"#fb4934",
+//	"#b8bb26",
+//	"#fabd2f",
+//	"#83a598",
+//	"#d3869b", // F5C2E7
+//	"#8ec07c", //
+//	"#fbf1c7", // #ebdbb2
+//
+//[256] = "#fbf1c7", /* default foreground colour */
+//[257] = "#1d2021", /* default background colour */
+//[258] = "#928374", /*575268*/
+//};
+///*
+// * foreground, background, cursor, reverse cursor
+// */
+//unsigned int defaultfg = 256;
+//unsigned int defaultbg = 257;
+//unsigned int defaultcs = 258;
+//static unsigned int defaultrcs = 258;
 
 /*
  * https://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h4-Functions-using-CSI-_-ordered-by-the-final-character-lparen-s-rparen:CSI-Ps-SP-q.1D81
