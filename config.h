@@ -110,28 +110,28 @@ unsigned int tabspaces = 4;
 float alpha = 0.90;
 
 static const char *colorname[] = {
-  "#1d2021", /* base00 */
-  "#fb4934", /* base08 */
-  "#b8bb26", /* base0B */
-  "#fabd2f", /* base0A */
-  "#83a598", /*  base0D */
-  "#d3869b", /* base0E */
-  "#8ec07c", /* base0C */
-  "#fbf1c7", /* d5c4a1 base05 */
+  "#161320", /* base00 */
+  "#F28FAD", /* base08 */
+  "#ABE9B3", /* base0B */
+  "#FAE3B0", /* base0A */
+  "#96CDFB", /*  base0D */
+  "#DDB6F2", /* base0E */
+  "#B5E8E0", /* base0C */
+  "#C3BAC6", /* d5c4a1 base05 */
 
-  "#a89984", /*665c54 base03 */
-  "#fe8019", /* base09 */
-  "#3c3836", /* base01 */
-  "#504945", /* base02 */
-  "#bdae93", /* base04 */
-  "#ebdbb2", /* base06 */
-  "#d65d0e", /* base0F */
-  "#fbf1c7", /* base07 */
+  "#6E6C7E", /*665c54 base03 */
+  "#F28FAD", /* base09 */
+  "#ABE9B3", /* base01 */
+  "#FAE3B0", /* base02 */
+  "#96CDFB", /* base04 */
+  "#DDB6F2", /* base06 */
+  "#B5E8E0", /* base0F */
+  "#D9E0EE", /* base07 */
 };
 
-unsigned int defaultfg = 7;
+unsigned int defaultfg = 15;
 unsigned int defaultbg = 0;
-unsigned int defaultcs = 13;
+unsigned int defaultcs = 7;
 static unsigned int defaultrcs = 0;
 
 /* gruvbox Terminal colors (16 first used in escape sequence) */
