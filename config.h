@@ -27,8 +27,8 @@ char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 1.0;
 static float chscale = 1.0;
+static float cwscale = 1.0;
 
 /*
  * word delimiter string
@@ -107,10 +107,10 @@ char *termname = "st-256color";
 unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.90;
+float alpha = 0.9;
 
 static const char *colorname[] = {
-  "#161320", /* base00 */
+  "#1E1E2E", /* base00 */
   "#F28FAD", /* base08 */
   "#ABE9B3", /* base0B */
   "#FAE3B0", /* base0A */
@@ -119,7 +119,7 @@ static const char *colorname[] = {
   "#B5E8E0", /* base0C */
   "#C3BAC6", /* d5c4a1 base05 */
 
-  "#6E6C7E", /*665c54 base03 */
+  "#6e6c7e", /*665c54 base03 */
   "#F28FAD", /* base09 */
   "#ABE9B3", /* base01 */
   "#FAE3B0", /* base02 */
@@ -127,12 +127,14 @@ static const char *colorname[] = {
   "#DDB6F2", /* base06 */
   "#B5E8E0", /* base0F */
   "#D9E0EE", /* base07 */
+  [256] = "#0e0e13",
+  [257] = "#d9e0ee",
 };
 
-unsigned int defaultfg = 15;
-unsigned int defaultbg = 0;
-unsigned int defaultcs = 7;
-static unsigned int defaultrcs = 0;
+unsigned int defaultfg = 257;
+unsigned int defaultbg = 256;
+unsigned int defaultcs = 257;
+static unsigned int defaultrcs = 256;
 
 
 /*
