@@ -119,13 +119,13 @@ static const char *colorname[] = {
   "#B5E8E0", /* base0C */
   "#C3BAC6", /* d5c4a1 base05 */
 
-  "#302D41", /*665c54 base03 */
-  "#F28FAD", /* base09 */
-  "#ABE9B3", /* base01 */
-  "#FAE3B0", /* base02 */
-  "#96CDFB", /* base04 */
-  "#DDB6F2", /* base06 */
-  "#B5E8E0", /* base0F */
+  "#161320", /*665c54 base03 */
+  "#1A1826", /* base09 */
+  "#1E1E2E", /* base01 */
+  "#302D41", /* base02 */
+  "#575268", /* base04 */
+  "#6E6C7E", /* base06 */
+  "#C3BAC6", /* base0F */
   "#D9E0EE", /* base07 */
   [256] = "#0e0e13",
   [257] = "#d9e0ee",
