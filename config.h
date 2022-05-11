@@ -110,21 +110,21 @@ unsigned int tabspaces = 4;
 float alpha = 0.9;
 
 static const char *colorname[] = {
-  "#0e1013", /* base00 */
-  "#e55561", /* base08 */
-  "#8ebd6b", /* base0B */
-  "#e2b86b", /* base0A */
-  "#4fa6ed", /* base0D */
-  "#bf68d9", /* base0E */
-  "#48b0bd", /* base0C */
-  "#a0a8b7", /* base05 */
-  "#535965", /* base03 */
-  "#cc9057", /* base09 */
-  "#1f2329", /* base01 */
-  "#282c34", /* base02 */
-  "#30363f", /* base04 */
-  "#7a818e", /* base06 */
-  "#8b3434", /* base0F */
+  "#282c34", /* base00 */
+  "#e06c75", /* base08 */
+  "#98c379", /* base0B */
+  "#e5c07b", /* base0A */
+  "#61afef", /* base0D */
+  "#c678dd", /* base0E */
+  "#56b6c2", /* base0C */
+  "#abb2bf", /* base05 */
+  "#545862", /* base03 */
+  "#d19a66", /* base09 */
+  "#353b45", /* base01 */
+  "#3e4451", /* base02 */
+  "#565c64", /* base04 */
+  "#b6bdca", /* base06 */
+  "#be5046", /* base0F */
   "#c8ccd4", /* base07 */
   
   [256] = "#14161a",
