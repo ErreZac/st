@@ -10,7 +10,7 @@ static char *font = "Victor Mono Nerd Font:size=22:style:Medium:antialias=true:a
 static int borderpx = 10;
 
 /*  theme */
-#include "colorthemes/ayu.h"
+#include "colorthemes/gruvbox16.h"
 
 /*
  * What program is execed by st depends of these precedence rules:
