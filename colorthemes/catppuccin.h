@@ -1,26 +1,24 @@
 static const char *colorname[] = {
-  "#1E1E2E", /* base00 */
-  "#F28FAD", /* base08 */
-  "#ABE9B3", /* base0B */
-  "#FAE3B0", /* base0A */
-  "#96CDFB", /*  base0D */
-  "#DDB6F2", /* base0E */
-  "#B5E8E0", /* base0C */
-  "#C3BAC6", /* d5c4a1 base05 */
+  "#1e1e2e", 
+  "#f38ba8", 
+  "#a6e3a1", 
+  "#f9e2af", 
+  "#74c7ec", 
+  "#cba6f7", 
+  "#94e2d5", 
+  "#bac2de", 
 
-  "#161320", /*665c54 base03 */
-  "#1A1826", /* base09 */
-  "#1E1E2E", /* base01 */
-  "#302D41", /* base02 */
-  "#575268", /* base04 */
-  "#6E6C7E", /* base06 */
-  "#C3BAC6", /* base0F */
-  "#D9E0EE", /* base07 */
-  [256] = "#0e0e13",
-  [257] = "#d9e0ee",
+  "#585b70",
+  "#fab387",
+  "#11111b",
+  "#1e1e2e",
+  "#45475a",
+  "#a6adc8",
+  "#eba0ac",
+  "#cdd6f4",
 };
 
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 256;
+unsigned int defaultfg = 15;
+unsigned int defaultbg = 10;
+unsigned int defaultcs = 15;
+static unsigned int defaultrcs = 10;
