@@ -1079,6 +1079,20 @@ newterm(const Arg* a)
 	}
 }
 
+void
+newtermranger(const Arg* a)
+{
+	switch (fork()) {
+	case -1:
+		die("fork failed: %s\n", strerror(errno));
+		break;
+	case 0:
+		chdir(getcwd_by_pid(pid));
+		execlp("st", "./st", "-e", "ranger", NULL);
+		break;
+	}
+}
+
 static char *getcwd_by_pid(pid_t pid) {
 	char buf[32];
 	snprintf(buf, sizeof buf, "/proc/%d/cwd", pid);
