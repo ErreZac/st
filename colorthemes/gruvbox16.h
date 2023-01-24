@@ -20,6 +20,6 @@ static const char *colorname[] = {
 };
 
 unsigned int defaultfg = 15;
-unsigned int defaultbg = 10;
+unsigned int defaultbg = 0;
 unsigned int defaultcs = 15;
-static unsigned int defaultrcs = 10;
+static unsigned int defaultrcs = 0;
