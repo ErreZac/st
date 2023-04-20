@@ -6,11 +6,12 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 //static char *font = "JetBrainsMono Nerd Font:size=22:style:Medium:antialias=true:autohint=true";
-static char *font = "Victor Mono Nerd Font:size=22:style:Medium:antialias=true:autohint=true";
+static char *font = "Fira Code Nerd Font:size=20:style:Retina:antialias=true:autohint=true";
 static int borderpx = 10;
 
 /*  theme */
-#include "colorthemes/gruvbox16.h"
+// #include "colorthemes/gruvbox16.h"
+#include "colorthemes/gruvbox_bright.h"
 
 /*
  * What program is execed by st depends of these precedence rules:

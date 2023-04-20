@@ -15,11 +15,6 @@ static const char *colorname[] = {
   "#b6bdca", /* base06 */
   "#be5046", /* base0F */
   "#c8ccd4", /* base07 */
-  
-  [256] = "#14161a",
-  [257] = "#c8ccd4",
-  //[258] = "#0e1013" //0a0b0d
-  [258] = "#040506" //0a0b0d
 };
 
 unsigned int defaultfg = 257;

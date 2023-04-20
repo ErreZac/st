@@ -1,6 +1,6 @@
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#1d2021", //#282828
+	"#282828", 
 	"#cc241d",
 	"#98971a",
 	"#d79921",
@@ -9,7 +9,7 @@ static const char *colorname[] = {
 	"#689d6a", //
 	"#a89984",
 	/* 8 bright colors */
-	"#665c54",
+	"#3c3836",
 	"#fb4934",
 	"#b8bb26",
 	"#fabd2f",
@@ -18,8 +18,8 @@ static const char *colorname[] = {
 	"#8ec07c", //
 	"#fbf1c7", // #ebdbb2
 
-[256] = "#0e2021", /* default background colour */
-[257] = "#f9f5d7", /* default foreground colour */
+[256] = "#1d2021", /* default background colour */
+[257] = "#fbf1c7", /* default foreground colour */
 };
 
 unsigned int defaultfg = 257;
