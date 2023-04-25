@@ -11,7 +11,7 @@ static int borderpx = 10;
 
 /*  theme */
 // #include "colorthemes/gruvbox16.h"
-#include "colorthemes/gruvbox_bright.h"
+#include "colorthemes/rosepine.h"
 
 /*
  * What program is execed by st depends of these precedence rules:
